@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0%;
+  background-color: #e6d6d6;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar ul {
+  /* Navigation Bar */
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.navbar li {
+  /* Navigation Bar */
+  float: left;
+}
+
+.navbar li a:hover {
+  /* Navigation Bar */
+  color: rgb(255, 255, 255);
+}
+
+.navbar li a {
+  /* Navigation Bar */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.container {
+  padding: 2%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 8%;
+}
+
+.div-Deshani,
+.div-Avantha,
+.div-Manori {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 80%;
+  height: 550px;
+}
+
+.overlay-Deshani,
+.overlay-Avantha,
+.overlay-Manori {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #e6d6d6;
+}
+
+.div-Deshani:hover .overlay-Deshani,
+.div-Avantha:hover .overlay-Avantha,
+.div-Manori:hover .overlay-Manori {
+  opacity: 1;
+}
+
+.deshani,
+.avantha,
+.manori {
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+footer {
+  /* Footer */
+  padding: 1%;
+  display: block;
+  background-color: #313131;
+  text-align: center;
+}
+
+.footerLinks h3 {
+  /* Footer */
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.footerLinks ul {
+  /* Footer */
+  list-style-type: none;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.footerLinks li a {
+  /* Footer */
+  text-decoration: none;
+  color: rgb(126, 126, 126);
+}
+
+.footerLinks li a:hover {
+  /* Footer */
+  color: rgb(255, 255, 255);
+}

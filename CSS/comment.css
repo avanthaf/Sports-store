@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0%;
+  background-image: url(/Images//commentsPage-cover.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right top;
+  background-size: 50%;
+  background-color: #efa452;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar ul {
+  /* Navigation Bar */
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.navbar li {
+  /* Navigation Bar */
+  float: left;
+}
+
+.navbar li a:hover {
+  /* Navigation Bar */
+  color: rgb(255, 255, 255);
+}
+
+.navbar li a {
+  /* Navigation Bar */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.commentsPage {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  padding-left: 2%;
+}
+
+.form_p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+form input[type="radio"] {
+  float: left;
+  width: 20px;
+}
+form label {
+  float: left;
+  width: 50px;
+}
+
+select {
+  font-size: 20px;
+  height: 50px;
+  width: 50%;
+}
+
+.submitBtn-div {
+  display: flex;
+  margin-left: 20%;
+}
+
+.submitBtn {
+  margin: 25px 0;
+  background-color: #18171b;
+  color: #ffffff;
+  height: 60px;
+  width: 250px;
+  padding: 10px 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #02a31d;
+}
+
+footer {
+  /* Footer */
+  padding: 2%;
+  display: block;
+  background-color: #313131;
+  text-align: center;
+}
+
+.footerLinks h3 {
+  font-size: 30px;
+}
+
+.footerLinks ul {
+  list-style-type: none;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.footerLinks li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.footerLinks li a:hover {
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  background-image: url(/Images/splashPage-cover.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+h1.heading {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffce31;
+  position: fixed;
+  top: 50%;
+  width: 50%;
+  text-align: center;
+  border-radius: 25px;
+}
+
+p.names {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  background-color: #ffce31;
+  position: fixed;
+  top: 60%;
+  width: 50%;
+  text-align: center;
+  border-radius: 25px;
+}

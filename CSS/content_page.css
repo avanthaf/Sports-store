@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0%;
+  background-color: #e3cccc;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar ul {
+  /* Navigation Bar */
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.navbar li {
+  /* Navigation Bar */
+  float: left;
+}
+
+.navbar li a:hover {
+  /* Navigation Bar */
+  color: rgb(255, 255, 255);
+}
+
+.navbar li a {
+  /* Navigation Bar */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.content {
+  text-align: left;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 5%;
+}
+
+.content ul {
+  list-style-type: none;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  padding-top: 10%;
+}
+
+p {
+  font-size: 40px;
+}
+
+footer {
+  /* Footer */
+  padding: 1%;
+  display: block;
+  background-color: #313131;
+  text-align: center;
+}
+
+.footerLinks h3 {
+  /* Footer */
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.footerLinks ul {
+  /* Footer */
+  list-style-type: none;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.footerLinks li a {
+  /* Footer */
+  text-decoration: none;
+  color: rgb(126, 126, 126);
+}
+
+.footerLinks li a:hover {
+  /* Footer */
+  color: rgb(255, 255, 255);
+}

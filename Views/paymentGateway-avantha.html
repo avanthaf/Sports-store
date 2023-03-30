@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="/CSS/paymentGateway-avantha.css" />
+  </head>
+  <body>
+    <div class="confirmHead">
+      <header>
+        <h1>Confirmation page</h1>
+      </header>
+    </div>
+
+    <div class="orderSummary">
+      <h1>Order Summary</h1>
+
+      <label for="refNumber">Reference number = </label>
+      <output name="refNumber"></output><br />
+
+      <label for="total">Total amount = </label>
+      <output name="total"></output><br />
+    </div>
+
+    <div class="paymentDetails">
+      <h1>Payment Details</h1>
+      <form action="">
+        <label for="cardNumber">Card number</label><br />
+        <input
+          type="number"
+          id="cardNumber"
+          name="cardNumber"
+          placeholder="1111-2222-3333-4444"
+        /><br />
+
+        <label for="cardholdersName">Card Holder's Name</label><br />
+        <input
+          type="text"
+          id="cardholdersName"
+          name="cardholdersName"
+          placeholder="Avantha Fonseka"
+        /><br />
+
+        <label for="expDate">Expiry Date</label><br />
+        <input type="number" id="expYear" name="YY" placeholder="23" />
+        <input type="number" id="expMonth" name="MM" placeholder="03" /><br />
+
+        <label for="cvv">Security Code</label><br />
+        <input type="number" id="cvv" name="CVV" placeholder="123" />
+      </form>
+    </div>
+
+    <div class="currentAddress">
+      <h1>Current Address</h1>
+      <label for="address">Address = </label>
+      <output name="address"></output><br />
+      <button class="editAddressBtn">Edit</button>
+    </div>
+
+    <div class="editBillingAddress">
+      <form action="">
+        <label for="address1">Address 1</label><br />
+        <input
+          type="text"
+          id="address1"
+          name="Address 1"
+          placeholder="50"
+        /><br />
+
+        <label for="address2">Address 2</label><br />
+        <input
+          type="text"
+          id="address2"
+          name="Address 2"
+          placeholder="Narahenpita Road"
+        /><br />
+
+        <label for="city">City</label><br />
+        <input type="text" id="city" name="City" placeholder="Nawala" /><br />
+
+        <label for="state">State</label><br />
+        <input
+          type="text"
+          id="state"
+          name="State"
+          placeholder="Western"
+        /><br />
+
+        <label for="zipcode">Zip Code</label><br />
+        <input
+          type="number"
+          id="zipcode"
+          name="Zip Code"
+          placeholder="11222"
+        /><br />
+
+        <label for="country">Country</label><br />
+        <input
+          type="text"
+          id="country"
+          name="Country"
+          placeholder="Sri Lanka"
+        /><br />
+      </form>
+    </div>
+
+    <div class="contactDetails">
+      <h1>Contact Details</h1>
+
+      <label for="email">Email address = </label>
+      <output name="email"></output><br />
+
+      <label for="phoneNumber">Phone number = </label>
+      <output name="phoneNumber"></output><br />
+
+      <button class="editContactBtn">Edit</button>
+    </div>
+
+    <div class="editContactDetails">
+      <form action="">
+        <label for="email">Email address</label><br />
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="avantha.20200871@iit.ac.lk"
+        /><br />
+
+        <label for="phoneNumber">Phone number</label><br />
+        <input
+          type="number"
+          id="phoneNumber"
+          name="phoneNumber"
+          placeholder="0711231234"
+        /><br />
+      </form>
+    </div>
+
+    <div class="submit">
+      <button class="checkoutBtn">Checkout</button>
+    </div>
+  </body>
+</html>

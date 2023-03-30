@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0%;
+  background-color: #f5f3ee;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar ul {
+  /* Navigation Bar */
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.navbar li {
+  /* Navigation Bar */
+  float: left;
+}
+
+.navbar li a:hover {
+  /* Navigation Bar */
+  color: rgb(255, 255, 255);
+}
+
+.navbar li a {
+  /* Navigation Bar */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.questionsContainer {
+  text-align: center;
+  padding-bottom: 1%;
+  padding: 3%;
+}
+
+.question_1,
+.question_2,
+.question_3,
+.question_4,
+.question_5,
+.question_6,
+.question_7,
+.question_8,
+.question_9,
+.question_10{
+  padding-bottom: 5%;
+}
+
+button {
+  margin: 25px 0;
+  background-color: #18171b;
+  color: #ffffff;
+  height: 50px;
+  width: 800px;
+  padding: 10px 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #02a31d;
+}
+
+.submit {
+  padding: 1%;
+  width: 100%;
+}
+
+footer {
+  /* Footer */
+  padding: 1%;
+  display: block;
+  background-color: #313131;
+  text-align: center;
+}
+
+.footerLinks h3 {
+  /* Footer */
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.footerLinks ul {
+  /* Footer */
+  list-style-type: none;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.footerLinks li a {
+  /* Footer */
+  text-decoration: none;
+  color: rgb(126, 126, 126);
+}
+
+.footerLinks li a:hover {
+  /* Footer */
+  color: rgb(255, 255, 255);
+}
